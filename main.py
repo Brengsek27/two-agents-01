@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Write the fixed poem to the chosen output directory.
 """
+# Revised poem version (new agreement text)
 
 """Write a fixed poem to an output file.
 
@@ -16,11 +17,10 @@ import sys
 # The poem to be written – exactly as required, with a single ``\n`` between
 # lines and **no** trailing newline.
 POEM = (
-    "I wrote the plan in pencil.\n"
-    "You crossed out my bravest line and added your most careful one.\n"
-    "What remained was smaller than my dream and larger than my fear —\n"
-    "a plan with two signatures,\n"
-    "and four feet ready to walk it."
+    "Each of us could stop the other.\n"
+    "That was the agreement: two hands on the wheel, two rights to say no.\n"
+    "So when we finally said yes — to the same road, at the same hour —\n"
+    "the yes was ours, and the road began."
 )
 
 
